@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscaminas Ada School</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header class="encabezado">
+        <h1 class="titulo">Buscaminas Ada School</h1>
+    </header>
+
+    <div id="containerDiv">
+        <div id="imagenesFin" class="imagenes-fin">
+            <a href="index.html"><img src="https://media-exp1.licdn.com/dms/image/C4D0BAQG5biJdV6kJ4Q/company-logo_200_200/0/1612374342807?e=2147483647&v=beta&t=TJ_iL4rrS-EqnvpLXMMK9XgdlRq7ihfb6vKs5X6ZIxU" alt="Ada School"></a>
+            
+        </div>
+        <div class="fin" id="divScore">Score: 0</div>
+        <table id="tableGame" style="display: flex; justify-content: center;"></table>
+
+      </div>
+      <div style="display: flex; justify-content: center; margin-top: 2%;">
+        <button id="butReset" class="btn" onclick="SetupBoard()">Nueva partida</button>
+
+      </div>
+      <script src="script.js"></script>
+</body>
+</html>
